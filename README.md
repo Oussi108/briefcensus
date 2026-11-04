@@ -1,5 +1,7 @@
 # BriefCensus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23950665.svg)](https://doi.org/10.5281/zenodo.23950665)
+
 Code, run log, and result tables for the paper "BriefCensus: A short metering campaign that chooses permanent monitors for rooftop photovoltaic fleet estimation and forecasting".
 
 BriefCensus meters candidate rooftop systems for a short temporary campaign, removes outage rows, and keeps k permanent monitors chosen by a forward greedy search. A day-rule estimator with no fitted weights then estimates the fleet from those monitors alone, and forecast models train on that estimate.
@@ -74,4 +76,4 @@ The code is under the MIT License. Result tables and figures are under CC BY 4.0
 
 ## Citation
 
-See `CITATION.cff`. The Zenodo DOI and the paper reference will be added here once they exist.
+Cite version 1.0.0 as [10.5281/zenodo.23950665](https://doi.org/10.5281/zenodo.23950665). See `CITATION.cff` for the full entry. The paper reference will be added here once it exists.

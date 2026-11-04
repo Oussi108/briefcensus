@@ -3,6 +3,7 @@ message: "If you use this code or these result tables, please cite them as below
 title: "BriefCensus: code, run log, and result tables"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23950665
 date-released: 2026-11-04
 license: MIT
 authors:
