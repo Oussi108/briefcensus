@@ -1,0 +1,99 @@
+[{"stream_name":"stdout","time":1.220742515,"data":"source src/campaign.py 6e4ac21309b387ae07fd05791b5be4dd4acefecb8f59adb8c72e200f96871b7b\n"}
+,{"stream_name":"stdout","time":1.22101013,"data":"source src/ukpv.py b337c577bf566fef944e9cbfb962a20d922aaf5241bb83bbcf5633e337b8b8bc\n"}
+,{"stream_name":"stdout","time":1.221265533,"data":"source src/run_campaign.py 4f274ba0b91a5842e215cebcf6417e81c05285f8a083557f6d100edf56af590f\n"}
+,{"stream_name":"stdout","time":1.221576606,"data":"source src/kill_test.py a29862f776914c3076960ed75492a24b47fa07d3f0e264e9108e2e8af7c96614\n"}
+,{"stream_name":"stdout","time":1.221764344,"data":"source src/kill_test2.py b30ee57802a6c0d2cca2ce4933465e96b9b3ab9e19a255582b01e9894099106f\n"}
+,{"stream_name":"stdout","time":1.221985114,"data":"source src/ausgrid.py 3557bb73262b1d4e4e938782de0ada0483cc9878813ec279b47d25001c19bb67\n"}
+,{"stream_name":"stdout","time":1.222308318,"data":"source src/extras.py 01215d67afb1d38e70256659647a99e23fa768407342f2258a0a7064008e6b06\n"}
+,{"stream_name":"stdout","time":1.222666981,"data":"source src/forecast.py decac3134ee09276406d19f28ee7d6aba7c1f523bca8610928a82f437c81fbe1\n"}
+,{"stream_name":"stdout","time":1.222777388,"data":"source src/sensitivity.py ba7a8617d8901a6a6f624028ab640ee30804547c749e73d24834ed0889bbf544\n"}
+,{"stream_name":"stdout","time":1.223268449,"data":"source RUN_LOG.md bc2c7c8ff55e326838db70a0003d6b6bfeb17769a4625479186acb0d1ad3bdaf\n"}
+,{"stream_name":"stdout","time":1.399433812,"data":"dataset at /kaggle/input/datasets/oussielhoucine/p3-solar-fleets\n"}
+,{"stream_name":"stdout","time":396.462212485,"data":"uk_51N-2E partition 11 done, 229 s\n"}
+,{"stream_name":"stdout","time":396.915198818,"data":"uk_50N-2E partition 11 done, 229 s\n"}
+,{"stream_name":"stdout","time":398.76319044,"data":"uk_51N-1E partition 11 done, 231 s\n"}
+,{"stream_name":"stdout","time":399.777764403,"data":"uk_51N-3E partition 11 done, 232 s\n"}
+,{"stream_name":"stdout","time":622.23328996,"data":"uk_51N-2E partition 23 done, 454 s\n"}
+,{"stream_name":"stdout","time":623.068088632,"data":"uk_50N-2E partition 23 done, 455 s\n"}
+,{"stream_name":"stdout","time":627.095199537,"data":"uk_51N-1E partition 23 done, 459 s\n"}
+,{"stream_name":"stdout","time":627.543120389,"data":"uk_51N-3E partition 23 done, 460 s\n"}
+,{"stream_name":"stdout","time":851.126334141,"data":"uk_51N-2E partition 37 done, 683 s\n"}
+,{"stream_name":"stdout","time":852.023061232,"data":"uk_50N-2E partition 37 done, 684 s\n"}
+,{"stream_name":"stdout","time":857.92267471,"data":"uk_51N-1E partition 37 done, 690 s\n"}
+,{"stream_name":"stdout","time":859.598409644,"data":"uk_51N-3E partition 37 done, 692 s\n"}
+,{"stream_name":"stdout","time":1078.482405279,"data":"uk_51N-2E partition 51 done, 911 s\n"}
+,{"stream_name":"stdout","time":1079.441364026,"data":"uk_50N-2E partition 51 done, 912 s\n"}
+,{"stream_name":"stdout","time":1087.343617668,"data":"uk_51N-1E partition 51 done, 920 s\n"}
+,{"stream_name":"stdout","time":1091.343898769,"data":"uk_51N-3E partition 51 done, 923 s\n"}
+,{"stream_name":"stdout","time":1308.214086726,"data":"uk_51N-2E partition 73 done, 1140 s\n"}
+,{"stream_name":"stdout","time":1311.463450894,"data":"uk_50N-2E partition 73 done, 1144 s\n"}
+,{"stream_name":"stdout","time":1318.646854119,"data":"uk_51N-1E partition 73 done, 1151 s\n"}
+,{"stream_name":"stdout","time":1323.647095073,"data":"uk_51N-3E partition 73 done, 1156 s\n"}
+,{"stream_name":"stdout","time":1594.283691394,"data":"uk_51N-4E partition 11 done, 227 s\n"}
+,{"stream_name":"stdout","time":1597.395028446,"data":"uk_51N0E partition 11 done, 227 s\n"}
+,{"stream_name":"stdout","time":1597.526035385,"data":"uk_52N-1E partition 11 done, 220 s\n"}
+,{"stream_name":"stdout","time":1606.094666737,"data":"uk_52N-2E partition 11 done, 223 s\n"}
+,{"stream_name":"stdout","time":1822.916684362,"data":"uk_52N-1E partition 23 done, 445 s\n"}
+,{"stream_name":"stdout","time":1825.544730684,"data":"uk_51N-4E partition 23 done, 458 s\n"}
+,{"stream_name":"stdout","time":1826.118353407,"data":"uk_51N0E partition 23 done, 456 s\n"}
+,{"stream_name":"stdout","time":1835.197718987,"data":"uk_52N-2E partition 23 done, 453 s\n"}
+,{"stream_name":"stdout","time":2048.904155197,"data":"uk_52N-1E partition 37 done, 671 s\n"}
+,{"stream_name":"stdout","time":2055.578374461,"data":"uk_51N0E partition 37 done, 685 s\n"}
+,{"stream_name":"stdout","time":2055.696605048,"data":"uk_51N-4E partition 37 done, 688 s\n"}
+,{"stream_name":"stdout","time":2062.86653482,"data":"uk_52N-2E partition 37 done, 680 s\n"}
+,{"stream_name":"stdout","time":2277.976823437,"data":"uk_52N-1E partition 51 done, 900 s\n"}
+,{"stream_name":"stdout","time":2289.361186969,"data":"uk_51N0E partition 51 done, 919 s\n"}
+,{"stream_name":"stdout","time":2290.724471572,"data":"uk_51N-4E partition 51 done, 924 s\n"}
+,{"stream_name":"stdout","time":2295.883079976,"data":"uk_52N-2E partition 51 done, 913 s\n"}
+,{"stream_name":"stdout","time":2506.151069597,"data":"uk_52N-1E partition 73 done, 1129 s\n"}
+,{"stream_name":"stdout","time":2522.415678479,"data":"uk_51N-4E partition 73 done, 1155 s\n"}
+,{"stream_name":"stdout","time":2522.571243052,"data":"uk_51N0E partition 73 done, 1152 s\n"}
+,{"stream_name":"stdout","time":2526.339501084,"data":"uk_52N-2E partition 73 done, 1144 s\n"}
+,{"stream_name":"stdout","time":2792.55372392,"data":"uk_52N0E partition 11 done, 227 s\n"}
+,{"stream_name":"stdout","time":2805.64390479,"data":"uk_53N-3E partition 11 done, 224 s\n"}
+,{"stream_name":"stdout","time":2810.169553028,"data":"uk_53N-2E partition 11 done, 228 s\n"}
+,{"stream_name":"stdout","time":2813.760183506,"data":"uk_54N-2E partition 11 done, 226 s\n"}
+,{"stream_name":"stdout","time":3019.611412598,"data":"uk_52N0E partition 23 done, 454 s\n"}
+,{"stream_name":"stdout","time":3029.365029514,"data":"uk_53N-3E partition 23 done, 447 s\n"}
+,{"stream_name":"stdout","time":3036.187353567,"data":"uk_53N-2E partition 23 done, 454 s\n"}
+,{"stream_name":"stdout","time":3041.579704002,"data":"uk_54N-2E partition 23 done, 454 s\n"}
+,{"stream_name":"stdout","time":3243.089941334,"data":"uk_52N0E partition 37 done, 678 s\n"}
+,{"stream_name":"stdout","time":3247.989652838,"data":"uk_53N-3E partition 37 done, 666 s\n"}
+,{"stream_name":"stdout","time":3259.179190231,"data":"uk_53N-2E partition 37 done, 677 s\n"}
+,{"stream_name":"stdout","time":3264.391688966,"data":"uk_54N-2E partition 37 done, 677 s\n"}
+,{"stream_name":"stdout","time":3472.199096022,"data":"uk_52N0E partition 51 done, 907 s\n"}
+,{"stream_name":"stdout","time":3473.355870334,"data":"uk_53N-3E partition 51 done, 891 s\n"}
+,{"stream_name":"stdout","time":3486.295117177,"data":"uk_53N-2E partition 51 done, 904 s\n"}
+,{"stream_name":"stdout","time":3492.6210592,"data":"uk_54N-2E partition 51 done, 905 s\n"}
+,{"stream_name":"stdout","time":3695.689885544,"data":"uk_53N-3E partition 73 done, 1114 s\n"}
+,{"stream_name":"stdout","time":3699.80597179,"data":"uk_52N0E partition 73 done, 1134 s\n"}
+,{"stream_name":"stdout","time":3713.730151246,"data":"uk_53N-2E partition 73 done, 1132 s\n"}
+,{"stream_name":"stdout","time":3719.174312028,"data":"uk_54N-2E partition 73 done, 1131 s\n"}
+,{"stream_name":"stdout","time":3977.399899335,"data":"uk_55N-3E partition 11 done, 223 s\n"}
+,{"stream_name":"stdout","time":3983.718959412,"data":"uk_55N-4E partition 11 done, 225 s\n"}
+,{"stream_name":"stdout","time":3994.076802843,"data":"uk_56N-4E partition 11 done, 221 s\n"}
+,{"stream_name":"stdout","time":4000.669357823,"data":"uk_57N-3E partition 11 done, 223 s\n"}
+,{"stream_name":"stdout","time":4199.861978949,"data":"uk_55N-3E partition 23 done, 445 s\n"}
+,{"stream_name":"stdout","time":4207.473868739,"data":"uk_55N-4E partition 23 done, 449 s\n"}
+,{"stream_name":"stdout","time":4214.713067447,"data":"uk_56N-4E partition 23 done, 442 s\n"}
+,{"stream_name":"stdout","time":4223.962846394,"data":"uk_57N-3E partition 23 done, 446 s\n"}
+,{"stream_name":"stdout","time":4423.032661908,"data":"uk_55N-3E partition 37 done, 668 s\n"}
+,{"stream_name":"stdout","time":4433.613092395,"data":"uk_55N-4E partition 37 done, 675 s\n"}
+,{"stream_name":"stdout","time":4435.881756995,"data":"uk_56N-4E partition 37 done, 663 s\n"}
+,{"stream_name":"stdout","time":4446.968717992,"data":"uk_57N-3E partition 37 done, 669 s\n"}
+,{"stream_name":"stdout","time":4645.68750235,"data":"uk_55N-3E partition 51 done, 891 s\n"}
+,{"stream_name":"stdout","time":4657.773636957,"data":"uk_56N-4E partition 51 done, 885 s\n"}
+,{"stream_name":"stdout","time":4658.915131461,"data":"uk_55N-4E partition 51 done, 900 s\n"}
+,{"stream_name":"stdout","time":4670.136198542,"data":"uk_57N-3E partition 51 done, 892 s\n"}
+,{"stream_name":"stdout","time":4868.660186805,"data":"uk_55N-3E partition 73 done, 1114 s\n"}
+,{"stream_name":"stdout","time":4879.553670666,"data":"uk_56N-4E partition 73 done, 1106 s\n"}
+,{"stream_name":"stdout","time":4880.157726686,"data":"uk_55N-4E partition 73 done, 1122 s\n"}
+,{"stream_name":"stdout","time":4888.959238658,"data":"uk_57N-3E partition 73 done, 1111 s\n"}
+,{"stream_name":"stdout","time":4889.775623101,"data":"forecast.py uk-confirm exit code 0\n"}
+,{"stream_name":"stderr","time":4892.865253557,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4892.865330891,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4893.272344158,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4893.272376666,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4894.29313102,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4895.852652518,"data":"[NbConvertApp] Writing 422870 bytes to __results__.html\n"}
+]

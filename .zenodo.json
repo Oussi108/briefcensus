@@ -1,0 +1,13 @@
+{
+  "title": "BriefCensus: code, run log, and result tables",
+  "upload_type": "software",
+  "description": "Code, protocols, dated run log, and result tables for BriefCensus, a method that chooses permanent monitors for a rooftop photovoltaic fleet from a short temporary metering campaign. Raw data are not included and remain with their publishers.",
+  "creators": [
+    {"name": "Oussi, El Houcine", "affiliation": "Nanjing University of Information Science and Technology"},
+    {"name": "El Massaoudy, Hamza", "affiliation": "Nanjing University of Information Science and Technology"}
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": ["rooftop photovoltaics", "fleet estimation", "monitor selection", "measurement campaign", "short-term forecasting"]
+}

@@ -1,0 +1,23 @@
+loaded 1 s | daylight rows 8115 8133
+fleet output centroid, clock hours, by month {1: 13.03, 2: 13.08, 3: 12.98, 4: 11.9, 5: 11.79, 6: 11.83, 7: 11.93, 8: 11.96, 9: 11.76, 10: 12.62, 11: 12.62, 12: 12.86}
+net signal built 2 s
+fleet signal against true fleet PV in Y1, correlation 0.5221
+partition 11 {'random': 15.36, 'census': 7.81, 'N1': 13.23, 'N2': 13.09}
+partition 23 {'random': 15.69, 'census': 7.86, 'N1': 11.23, 'N2': 12.79}
+partition 37 {'random': 15.14, 'census': 7.11, 'N1': 11.25, 'N2': 12.34}
+partition 51 {'random': 14.72, 'census': 15.91, 'N1': 12.03, 'N2': 12.66}
+partition 73 {'random': 14.89, 'census': 9.77, 'N1': 13.27, 'N2': 15.73}
+
+nRMSE % on Y2, mean of five partitions
+k     random  census      N1      N2
+1      41.90   31.71   42.04   40.16
+2      31.20   20.65   29.73   28.99
+3      25.69   17.53   23.93   22.79
+5      21.16   13.20   17.62   17.32
+10     15.16    9.69   12.20   13.32
+20     11.69    7.30    8.77    9.81
+50      8.28    5.92    6.39    8.00
+recovery {'N1': {5: 0.445, 10: 0.541, 20: 0.664}, 'N2': {5: 0.482, 10: 0.336, 20: 0.428}}
+median recovery {'N1': 0.541, 'N2': 0.428} | better arm N1 | verdict PASS
+share of homes in common with census greedy {5: 0.04, 10: 0.06, 20: 0.1}
+seconds 26

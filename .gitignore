@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data_external/
+cache/
+.env
+kaggle.json
+*.docx

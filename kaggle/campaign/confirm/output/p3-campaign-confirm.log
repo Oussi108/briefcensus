@@ -1,0 +1,34 @@
+[{"stream_name":"stdout","time":1.10374863,"data":"source src/campaign.py 6e4ac21309b387ae07fd05791b5be4dd4acefecb8f59adb8c72e200f96871b7b\n"}
+,{"stream_name":"stdout","time":1.10410697,"data":"source src/ukpv.py b337c577bf566fef944e9cbfb962a20d922aaf5241bb83bbcf5633e337b8b8bc\n"}
+,{"stream_name":"stdout","time":1.104404341,"data":"source src/run_campaign.py 6e8a706ec069838ee11c9fa395f53017e69e2f75d51c7d685dcb54c6522ab4be\n"}
+,{"stream_name":"stdout","time":1.1044390609999999,"data":"source src/kill_test.py a29862f776914c3076960ed75492a24b47fa07d3f0e264e9108e2e8af7c96614\n"}
+,{"stream_name":"stdout","time":1.104548081,"data":"source src/kill_test2.py b30ee57802a6c0d2cca2ce4933465e96b9b3ab9e19a255582b01e9894099106f\n"}
+,{"stream_name":"stdout","time":1.104864991,"data":"source src/ausgrid.py 3557bb73262b1d4e4e938782de0ada0483cc9878813ec279b47d25001c19bb67\n"}
+,{"stream_name":"stdout","time":1.105078671,"data":"source RUN_LOG.md 2cbb5523b1994f6f7266e0703a1bc1a3dcb08915cf8d91f0e088afd76788f044\n"}
+,{"stream_name":"stdout","time":1.386864839,"data":"dataset at /kaggle/input/datasets/oussielhoucine/p3-solar-fleets\n"}
+,{"stream_name":"stdout","time":5.697186983,"data":"fleets ['50N-2E', '51N-1E', '51N-2E', '51N-3E', '51N-4E', '51N0E', '52N-1E', '52N-2E', '52N0E', '53N-2E', '53N-3E', '54N-2E', '55N-3E', '55N-4E', '56N-4E', '57N-3E', 'national']\n"}
+,{"stream_name":"stdout","time":409.404480311,"data":"51N-3E systems 300 rows 22970 seconds 404\n"}
+,{"stream_name":"stdout","time":413.814736212,"data":"51N-1E systems 300 rows 22970 seconds 408\n"}
+,{"stream_name":"stdout","time":414.757446034,"data":"51N-2E systems 300 rows 22970 seconds 409\n"}
+,{"stream_name":"stdout","time":416.368755341,"data":"50N-2E systems 300 rows 22970 seconds 411\n"}
+,{"stream_name":"stdout","time":719.444273554,"data":"51N-4E systems 300 rows 22970 seconds 310\n"}
+,{"stream_name":"stdout","time":725.916266095,"data":"52N-2E systems 300 rows 22970 seconds 310\n"}
+,{"stream_name":"stdout","time":726.170257763,"data":"51N0E systems 300 rows 22970 seconds 312\n"}
+,{"stream_name":"stdout","time":726.640633587,"data":"52N-1E systems 300 rows 22970 seconds 312\n"}
+,{"stream_name":"stdout","time":1013.490908636,"data":"52N0E systems 300 rows 22970 seconds 294\n"}
+,{"stream_name":"stdout","time":1018.409504627,"data":"53N-3E systems 300 rows 22970 seconds 292\n"}
+,{"stream_name":"stdout","time":1019.134514243,"data":"53N-2E systems 300 rows 22970 seconds 293\n"}
+,{"stream_name":"stdout","time":1025.296839063,"data":"54N-2E systems 300 rows 22970 seconds 299\n"}
+,{"stream_name":"stdout","time":1309.418929082,"data":"55N-3E systems 300 rows 22970 seconds 296\n"}
+,{"stream_name":"stdout","time":1314.719137819,"data":"55N-4E systems 300 rows 22970 seconds 296\n"}
+,{"stream_name":"stdout","time":1315.085956812,"data":"56N-4E systems 300 rows 22970 seconds 296\n"}
+,{"stream_name":"stdout","time":1321.175755987,"data":"57N-3E systems 300 rows 22970 seconds 296\n"}
+,{"stream_name":"stdout","time":1548.933592929,"data":"national systems 1000 rows 20590 seconds 240\n"}
+,{"stream_name":"stdout","time":1549.279683956,"data":"uk-confirm exit code 0\n"}
+,{"stream_name":"stderr","time":1552.341788549,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1552.341852759,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1552.945543936,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1552.945589796,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1555.98757662,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1557.584640869,"data":"[NbConvertApp] Writing 383685 bytes to __results__.html\n"}
+]

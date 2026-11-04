@@ -1,0 +1,189 @@
+fleets ['50N-2E', '51N-1E', '51N-2E', '51N-3E', '51N-4E', '51N0E', '52N-1E', '52N-2E', '52N0E', '53N-2E', '53N-3E', '54N-2E', '55N-3E', '55N-4E', '56N-4E', '57N-3E'] | rows 367520 | empty errors 0
+
+== Main rule: S by length, then decay ==
+S 1w scored 2019             median   0.898 | range  -0.728 to   2.264 | share at .5 or more 0.750 | fleets 16
+S 2w scored 2019             median   0.810 | range  -0.789 to   2.175 | share at .5 or more 0.875 | fleets 16
+S 4w scored 2019             median   0.855 | range  -0.468 to   1.815 | share at .5 or more 0.875 | fleets 16
+S 3m scored 2019             median   0.872 | range   0.029 to   1.330 | share at .5 or more 0.938 | fleets 16
+S 1w scored 2020             median   0.933 | range  -0.729 to   3.335 | share at .5 or more 0.750 | fleets 16
+S 2w scored 2020             median   0.924 | range  -0.822 to   3.690 | share at .5 or more 0.875 | fleets 16
+S 4w scored 2020             median   0.922 | range  -0.575 to   2.735 | share at .5 or more 0.875 | fleets 16
+S 3m scored 2020             median   0.799 | range   0.044 to   2.156 | share at .5 or more 0.875 | fleets 16
+S 1w scored 2021             median   0.958 | range  -1.240 to   1.473 | share at .5 or more 0.625 | fleets 16
+S 2w scored 2021             median   0.952 | range  -1.476 to   2.079 | share at .5 or more 0.750 | fleets 16
+S 4w scored 2021             median   0.963 | range  -0.945 to   2.409 | share at .5 or more 0.750 | fleets 16
+S 3m scored 2021             median   0.802 | range  -0.126 to   1.188 | share at .5 or more 0.750 | fleets 16
+per fleet at the main length
+ fleet
+50N-2E    0.773
+51N-1E    0.796
+51N-2E    1.292
+51N-3E    1.070
+51N-4E    1.096
+51N0E     1.180
+52N-1E    1.815
+52N-2E    0.665
+52N0E    -0.468
+53N-2E    0.898
+53N-3E    0.725
+54N-2E    0.491
+55N-3E    1.089
+55N-4E    0.811
+56N-4E    1.169
+57N-3E    0.756
+CONFIRMED at 4w on 2019: median S 0.855, share 0.875
+Wilcoxon on E_random - E_L: k=5 p=3.1e-05, median 6.50, k=10 p=3.1e-05, median 4.17, k=20 p=3.1e-05, median 1.89 | median over k p=3.1e-05
+
+== Errors by arm, median across fleets, 16 period 2019 ==
+k                       5      10     20
+GC             1y    15.82  12.40  10.38
+               3m    15.73  12.53  10.71
+               4w    16.30  12.38  10.10
+RC             1y    22.81  16.11  11.91
+               3m    23.52  16.93  12.31
+               4w    23.77  16.83  12.38
+closest        1y    18.59  15.76  13.36
+               3m    21.39  18.53  15.68
+               4w    21.57  19.00  15.59
+closest_fit    1y    17.24  14.90  12.74
+               3m    19.34  16.69  14.18
+               4w    20.15  16.51  13.66
+correlated     1y    24.28  21.61  20.09
+               3m    29.13  25.50  22.22
+               4w    28.97  25.11  21.27
+correlated_fit 1y    17.56  15.92  15.39
+               3m    22.63  18.51  16.11
+               4w    23.64  20.29  17.77
+gp_mi          1y    18.96  14.35  11.39
+               3m    20.55  14.79  12.09
+               4w    23.21  16.00  13.08
+gp_mi_fit      1y    15.81  12.20  11.82
+               3m    16.05  12.89  11.18
+               4w    19.84  14.07  11.20
+largest        none  27.84  20.71  16.30
+maxdiff        1y    29.94  22.50  16.90
+               3m    30.45  21.82  16.26
+               4w    30.41  21.78  16.93
+maxdiff_fit    1y    34.63  27.24  20.52
+               3m    33.85  24.85  20.62
+               4w    34.82  24.74  19.38
+medoids        1y    16.61  13.10   9.65
+               3m    17.10  12.87  10.35
+               4w    17.96  13.15  10.25
+medoids_fit    1y    15.26  11.81  12.97
+               3m    17.45  14.18  13.09
+               4w    18.79  13.56  11.35
+metadata       none  24.40  17.85  14.33
+method         1y    16.56  12.67  11.03
+               3m    15.74  12.97  11.10
+               4w    16.07  12.45  10.11
+method_fit     1y    15.81  12.40  11.38
+               3m    15.55  12.98  12.12
+               4w    15.87  12.70  11.17
+mrmr           1y    20.00  16.43  14.28
+               3m    19.71  16.38  14.84
+               4w    21.27  17.57  15.63
+mrmr_fit       1y    15.42  12.82  11.65
+               3m    16.63  13.66  12.77
+               4w    19.07  15.00  14.04
+oracle         none  12.39   8.60   6.12
+random         none  23.45  16.85  12.46
+screened       1y    21.99  17.94  14.76
+               3m    21.97  17.44  14.57
+               4w    22.09  17.45  14.19
+spatial        none  21.35  17.62  14.39
+
+== Selection or level: A = (E_RC - E_GC) / E_RC, rule at .10 ==
+1w median A 0.240, range 0.028 to 0.338, share at .10 or more 0.812
+2w median A 0.270, range 0.133 to 0.339, share at .10 or more 1.000
+4w median A 0.252, range 0.150 to 0.349, share at .10 or more 1.000
+3m median A 0.244, range 0.137 to 0.360, share at .10 or more 1.000
+1y median A 0.233, range 0.028 to 0.369, share at .10 or more 0.938
+
+== Is a campaign needed? Share of the method gain kept with no campaign, rule at .8 ==
+metadata                     median  -0.213 | range  -3.223 to   0.574 | share at .5 or more 0.062 | fleets 16
+spatial                      median  -0.054 | range  -1.585 to   0.911 | share at .5 or more 0.188 | fleets 16
+better of the two, per fleet median   0.313 | range  -0.832 to   0.911 | share at .5 or more 0.250 | fleets 16
+
+== Is a simple rule enough? Excess error over the method, rule at .10 ==
+closest      median excess 0.533, range 0.158 to 1.019
+correlated   median excess 0.931, range 0.626 to 2.526
+screened     median excess 0.384, range 0.168 to 0.721
+best simple, per fleet: median excess 0.319, fleets within .10 0 of 16
+
+== Fitted competitors against the method without weights: positive means the competitor is better ==
+1w method_fit       k=5 median   0.43, fleets better 12, p=0.034 | k=10 median  -0.06, fleets better  7, p=0.82 | k=20 median  -0.28, fleets better  1, p=0.00031
+1w gp_mi_fit        k=5 median  -4.95, fleets better  2, p=0.00031 | k=10 median  -3.01, fleets better  1, p=9.2e-05 | k=20 median  -1.87, fleets better  0, p=3.1e-05
+1w mrmr_fit         k=5 median  -3.29, fleets better  2, p=0.00043 | k=10 median  -3.52, fleets better  0, p=3.1e-05 | k=20 median  -3.74, fleets better  0, p=3.1e-05
+1w medoids_fit      k=5 median  -3.00, fleets better  3, p=0.0063 | k=10 median  -1.01, fleets better  2, p=0.0063 | k=20 median  -0.98, fleets better  2, p=0.001
+1w closest_fit      k=5 median  -4.32, fleets better  1, p=0.00015 | k=10 median  -4.41, fleets better  0, p=3.1e-05 | k=20 median  -4.79, fleets better  0, p=3.1e-05
+1w correlated_fit   k=5 median  -7.65, fleets better  0, p=3.1e-05 | k=10 median  -9.44, fleets better  0, p=3.1e-05 | k=20 median  -8.98, fleets better  0, p=3.1e-05
+1w maxdiff_fit      k=5 median -16.80, fleets better  0, p=3.1e-05 | k=10 median -11.67, fleets better  0, p=3.1e-05 | k=20 median  -7.29, fleets better  0, p=3.1e-05
+2w method_fit       k=5 median   0.39, fleets better 13, p=0.0013 | k=10 median  -0.01, fleets better  7, p=0.74 | k=20 median  -0.17, fleets better  5, p=0.065
+2w gp_mi_fit        k=5 median  -3.94, fleets better  2, p=0.00015 | k=10 median  -2.55, fleets better  2, p=0.00021 | k=20 median  -1.40, fleets better  1, p=9.2e-05
+2w mrmr_fit         k=5 median  -3.83, fleets better  1, p=9.2e-05 | k=10 median  -3.05, fleets better  0, p=3.1e-05 | k=20 median  -2.85, fleets better  0, p=3.1e-05
+2w medoids_fit      k=5 median  -3.67, fleets better  0, p=3.1e-05 | k=10 median  -1.76, fleets better  3, p=0.0021 | k=20 median  -1.23, fleets better  1, p=0.00021
+2w closest_fit      k=5 median  -5.41, fleets better  1, p=6.1e-05 | k=10 median  -4.90, fleets better  0, p=3.1e-05 | k=20 median  -4.26, fleets better  0, p=3.1e-05
+2w correlated_fit   k=5 median  -7.77, fleets better  0, p=3.1e-05 | k=10 median  -8.71, fleets better  0, p=3.1e-05 | k=20 median  -8.42, fleets better  0, p=3.1e-05
+2w maxdiff_fit      k=5 median -18.14, fleets better  0, p=3.1e-05 | k=10 median -12.55, fleets better  0, p=3.1e-05 | k=20 median  -8.14, fleets better  0, p=3.1e-05
+4w method_fit       k=5 median   0.16, fleets better 11, p=0.23 | k=10 median  -0.13, fleets better  7, p=0.21 | k=20 median  -0.62, fleets better  1, p=6.1e-05
+4w gp_mi_fit        k=5 median  -2.53, fleets better  1, p=0.00021 | k=10 median  -1.60, fleets better  1, p=0.00021 | k=20 median  -0.90, fleets better  5, p=0.0076
+4w mrmr_fit         k=5 median  -3.11, fleets better  2, p=0.00021 | k=10 median  -3.21, fleets better  0, p=3.1e-05 | k=20 median  -3.72, fleets better  0, p=3.1e-05
+4w medoids_fit      k=5 median  -2.55, fleets better  1, p=0.00031 | k=10 median  -1.06, fleets better  4, p=0.0052 | k=20 median  -1.29, fleets better  2, p=0.00043
+4w closest_fit      k=5 median  -4.63, fleets better  1, p=6.1e-05 | k=10 median  -4.32, fleets better  0, p=3.1e-05 | k=20 median  -3.47, fleets better  0, p=3.1e-05
+4w correlated_fit   k=5 median  -6.60, fleets better  0, p=3.1e-05 | k=10 median  -8.64, fleets better  0, p=3.1e-05 | k=20 median  -7.30, fleets better  0, p=3.1e-05
+4w maxdiff_fit      k=5 median -18.74, fleets better  0, p=3.1e-05 | k=10 median -13.12, fleets better  0, p=3.1e-05 | k=20 median  -8.64, fleets better  0, p=3.1e-05
+3m method_fit       k=5 median   0.24, fleets better 12, p=0.029 | k=10 median  -0.29, fleets better  6, p=0.14 | k=20 median  -1.16, fleets better  2, p=0.001
+3m gp_mi_fit        k=5 median  -0.66, fleets better  7, p=0.56 | k=10 median   0.49, fleets better  9, p=0.78 | k=20 median  -0.61, fleets better  5, p=0.19
+3m mrmr_fit         k=5 median  -1.13, fleets better  5, p=0.051 | k=10 median  -0.84, fleets better  4, p=0.0063 | k=20 median  -2.23, fleets better  1, p=6.1e-05
+3m medoids_fit      k=5 median  -1.65, fleets better  6, p=0.12 | k=10 median  -1.72, fleets better  4, p=0.058 | k=20 median  -2.14, fleets better  0, p=3.1e-05
+3m closest_fit      k=5 median  -3.65, fleets better  1, p=9.2e-05 | k=10 median  -3.94, fleets better  1, p=6.1e-05 | k=20 median  -3.28, fleets better  0, p=3.1e-05
+3m correlated_fit   k=5 median  -5.97, fleets better  0, p=3.1e-05 | k=10 median  -5.68, fleets better  0, p=3.1e-05 | k=20 median  -5.37, fleets better  0, p=3.1e-05
+3m maxdiff_fit      k=5 median -17.64, fleets better  0, p=3.1e-05 | k=10 median -11.53, fleets better  0, p=3.1e-05 | k=20 median -10.27, fleets better  0, p=3.1e-05
+1y method_fit       k=5 median   0.72, fleets better 13, p=0.025 | k=10 median   0.23, fleets better  9, p=0.71 | k=20 median  -0.50, fleets better  5, p=0.074
+1y gp_mi_fit        k=5 median  -0.14, fleets better  8, p=0.9 | k=10 median   0.49, fleets better 11, p=0.16 | k=20 median  -0.13, fleets better  7, p=0.18
+1y mrmr_fit         k=5 median   0.08, fleets better  8, p=0.74 | k=10 median  -0.24, fleets better  7, p=0.4 | k=20 median  -0.57, fleets better  3, p=0.0076
+1y medoids_fit      k=5 median  -0.41, fleets better  8, p=0.63 | k=10 median   0.14, fleets better  8, p=0.71 | k=20 median  -0.85, fleets better  5, p=0.025
+1y closest_fit      k=5 median  -1.48, fleets better  4, p=0.034 | k=10 median  -2.07, fleets better  3, p=0.025 | k=20 median  -1.67, fleets better  3, p=0.025
+1y correlated_fit   k=5 median  -2.21, fleets better  3, p=0.0063 | k=10 median  -3.49, fleets better  2, p=0.0042 | k=20 median  -4.64, fleets better  2, p=0.00021
+1y maxdiff_fit      k=5 median -19.53, fleets better  0, p=3.1e-05 | k=10 median -13.98, fleets better  0, p=3.1e-05 | k=20 median -10.54, fleets better  0, p=3.1e-05
+
+== Season: S by start month ==
+1w start month 1             median   0.704 | range  -0.946 to   2.102 | share at .5 or more 0.625 | fleets 16
+1w start month 4             median   0.915 | range  -0.828 to   2.097 | share at .5 or more 0.875 | fleets 16
+1w start month 7             median   0.952 | range  -1.023 to   2.576 | share at .5 or more 0.625 | fleets 16
+1w start month 10            median   0.939 | range  -0.685 to   2.283 | share at .5 or more 0.938 | fleets 16
+2w start month 1             median   0.729 | range  -0.678 to   1.544 | share at .5 or more 0.750 | fleets 16
+2w start month 4             median   1.012 | range  -0.813 to   2.380 | share at .5 or more 0.875 | fleets 16
+2w start month 7             median   1.052 | range  -0.788 to   2.779 | share at .5 or more 0.688 | fleets 16
+2w start month 10            median   1.169 | range  -0.717 to   1.997 | share at .5 or more 0.938 | fleets 16
+4w start month 1             median   0.892 | range  -0.490 to   2.607 | share at .5 or more 0.875 | fleets 16
+4w start month 4             median   1.121 | range  -0.795 to   2.000 | share at .5 or more 0.938 | fleets 16
+4w start month 7             median   0.824 | range  -0.086 to   1.358 | share at .5 or more 0.750 | fleets 16
+4w start month 10            median   0.916 | range  -0.775 to   1.724 | share at .5 or more 0.875 | fleets 16
+3m start month 1             median   0.897 | range  -0.827 to   1.857 | share at .5 or more 0.688 | fleets 16
+3m start month 4             median   0.897 | range  -0.512 to   1.571 | share at .5 or more 0.875 | fleets 16
+3m start month 7             median   0.978 | range   0.278 to   1.927 | share at .5 or more 0.938 | fleets 16
+3m start month 10            median   0.953 | range  -0.833 to   2.211 | share at .5 or more 0.938 | fleets 16
+
+== Campaign size: S against m, with cost in meter-months ==
+4w m=25   meter-months   23.0 | median S 0.374 | median error at k=10 15.15
+4w m=50   meter-months   46.0 | median S 0.640 | median error at k=10 13.56
+4w m=100  meter-months   92.0 | median S 0.749 | median error at k=10 13.04
+3m m=25   meter-months   74.7 | median S 0.359 | median error at k=10 15.37
+3m m=50   meter-months  149.5 | median S 0.654 | median error at k=10 14.13
+3m m=100  meter-months  298.9 | median S 0.798 | median error at k=10 13.63
+
+== Bias, %, median across fleets ==
+method 4w {5: -0.4, 10: -0.02, 20: 0.6}
+method 1y {5: 0.05, 10: 0.62, 20: 1.74}
+GC 4w {5: -0.48, 10: -0.66, 20: -0.46}
+random none {5: 1.72, 10: 1.81, 20: 1.72}
+RC 4w {5: 0.6, 10: 0.22, 20: -0.35}
+
+== National fleet, sensitivity ==
+1w S 0.613 {5: 23.07, 10: 16.56, 20: 12.38}
+2w S 0.709 {5: 22.01, 10: 16.49, 20: 11.96}
+4w S 0.715 {5: 20.63, 10: 15.38, 20: 12.12}
+3m S 0.788 {5: 21.13, 10: 15.31, 20: 11.25}
+random {5: 29.83, 10: 20.96, 20: 15.34} | 1y {5: 18.79, 10: 13.15, 20: 10.75}

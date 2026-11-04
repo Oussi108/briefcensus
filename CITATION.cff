@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these result tables, please cite them as below."
+title: "BriefCensus: code, run log, and result tables"
+type: software
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+authors:
+  - family-names: Oussi
+    given-names: El Houcine
+    affiliation: Nanjing University of Information Science and Technology
+  - family-names: El Massaoudy
+    given-names: Hamza
+    affiliation: Nanjing University of Information Science and Technology
+keywords:
+  - rooftop photovoltaics
+  - fleet estimation
+  - monitor selection
+  - measurement campaign
+  - short-term forecasting

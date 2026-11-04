@@ -1,0 +1,41 @@
+partition 11 17 s
+partition 23 31 s
+partition 37 50 s
+partition 51 64 s
+partition 73 82 s
+largest difference from the random medians of the second round 0.0
+
+4w: nRMSE % on Y2, mean over partitions and start months. random and census are the second-round arms.
+k     random census   greedy      GC      RC       B
+1      41.90  31.71    35.83   37.86   39.17   34.67
+2      31.20  20.65    21.63   22.22   30.40   21.33
+3      25.15  16.41    16.50   16.91   24.43   16.44
+5      20.46  10.98    12.96   13.22   19.53   13.18
+10     14.69   8.11     9.48    9.59   14.00   10.04
+20     11.31   6.44     7.42    7.64   10.94    8.20
+50      8.41   5.70     6.08    6.23    8.04    6.72
+advantage of greedy over random, both with the factor 0.315 | worst left out 0.289 | share of gain {'greedy': 0.792, 'GC': 0.764, 'RC': 0.098, 'B': 0.707}
+
+3m: nRMSE % on Y2, mean over partitions and start months. random and census are the second-round arms.
+k     random census   greedy      GC      RC       B
+1      41.90  31.71    30.54   31.74   39.37   31.44
+2      31.20  20.65    20.17   20.75   30.49   20.77
+3      25.15  16.41    15.99   16.26   24.35   16.21
+5      20.46  10.98    12.35   12.61   19.53   12.27
+10     14.69   8.11     8.63    8.93   13.96    9.39
+20     11.31   6.44     7.05    7.25   10.78    7.63
+50      8.41   5.70     5.96    6.10    7.93    6.61
+advantage of greedy over random, both with the factor 0.354 | worst left out 0.34 | share of gain {'greedy': 0.876, 'GC': 0.835, 'RC': 0.11, 'B': 0.804}
+
+1y: nRMSE % on Y2, mean over partitions and start months. random and census are the second-round arms.
+k     random census   greedy      GC      RC       B
+1      41.90  31.71    31.71   32.34   38.25   32.08
+2      31.20  20.65    20.65   20.28   29.73   21.60
+3      25.15  16.41    16.41   16.36   23.71   16.65
+5      20.46  10.98    10.98   11.21   18.99   11.70
+10     14.69   8.11     8.11    8.17   13.52    8.76
+20     11.31   6.44     6.44    6.46   10.52    7.28
+50      8.41   5.70     5.70    5.66    7.70    6.66
+advantage of greedy over random, both with the factor 0.396 | worst left out 0.376 | share of gain {'greedy': 1.0, 'GC': 0.99, 'RC': 0.164, 'B': 0.901}
+
+verdict SELECTION ADDS VALUE | target without evaluation homes is harmless {'4w': True, '3m': True} | seconds 82

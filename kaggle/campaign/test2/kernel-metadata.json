@@ -1,0 +1,17 @@
+{
+  "id": "oussielhoucine/p3-campaign-test2",
+  "title": "p3-campaign-test2",
+  "code_file": "run_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "oussielhoucine/p3-solar-fleets"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

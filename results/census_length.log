@@ -1,0 +1,20 @@
+partition 11 5 s
+partition 23 9 s
+partition 37 14 s
+partition 51 18 s
+partition 73 22 s
+one-year picks reproduce the census arm in every partition: True
+
+nRMSE % on Y2 with the day rule, mean of five partitions
+k     random census   4w_Jul  4w_Oct  4w_Jan  4w_Apr  3m_Jul  3m_Oct  3m_Jan  3m_Apr
+1      41.90  31.71    44.72   29.07   33.84   35.68   30.91   29.17   29.10   32.98
+2      31.20  20.65    25.02   19.48   20.66   21.35   21.72   18.51   19.62   20.81
+3      25.15  16.41    16.43   15.20   17.80   16.57   15.14   17.03   16.55   15.24
+5      20.46  10.98    13.48   12.47   14.12   11.75   12.14   13.17   12.63   11.48
+10     14.69   8.11     9.61    8.87   10.74    8.68    8.28    8.80    9.10    8.33
+20     11.31   6.44     7.59    6.71    8.31    7.06    7.01    6.73    7.82    6.64
+50      8.41   5.70     5.94    5.74    6.92    5.73    5.78    5.74    6.53    5.79
+
+4w share of gain kept by start {'Jul': 0.765, 'Oct': 0.883, 'Jan': 0.617, 'Apr': 0.912} average 0.794 worst left out 0.774 starts passing 4
+3m share of gain kept by start {'Jul': 0.884, 'Oct': 0.895, 'Jan': 0.826, 'Apr': 0.96} average 0.891 worst left out 0.877 starts passing 4
+verdict CLEAR GAIN | seconds 22

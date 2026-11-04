@@ -1,0 +1,104 @@
+[{"stream_name":"stdout","time":1.047968517,"data":"source src/campaign.py 6e4ac21309b387ae07fd05791b5be4dd4acefecb8f59adb8c72e200f96871b7b\n"}
+,{"stream_name":"stdout","time":1.0480328,"data":"source src/ukpv.py b337c577bf566fef944e9cbfb962a20d922aaf5241bb83bbcf5633e337b8b8bc\n"}
+,{"stream_name":"stdout","time":1.048040662,"data":"source src/run_campaign.py 4f274ba0b91a5842e215cebcf6417e81c05285f8a083557f6d100edf56af590f\n"}
+,{"stream_name":"stdout","time":1.048045288,"data":"source src/kill_test.py a29862f776914c3076960ed75492a24b47fa07d3f0e264e9108e2e8af7c96614\n"}
+,{"stream_name":"stdout","time":1.048049916,"data":"source src/kill_test2.py b30ee57802a6c0d2cca2ce4933465e96b9b3ab9e19a255582b01e9894099106f\n"}
+,{"stream_name":"stdout","time":1.04805544,"data":"source src/ausgrid.py 3557bb73262b1d4e4e938782de0ada0483cc9878813ec279b47d25001c19bb67\n"}
+,{"stream_name":"stdout","time":1.048059944,"data":"source src/extras.py 01215d67afb1d38e70256659647a99e23fa768407342f2258a0a7064008e6b06\n"}
+,{"stream_name":"stdout","time":1.04806541,"data":"source src/forecast.py decac3134ee09276406d19f28ee7d6aba7c1f523bca8610928a82f437c81fbe1\n"}
+,{"stream_name":"stdout","time":1.048070495,"data":"source src/sensitivity.py ba7a8617d8901a6a6f624028ab640ee30804547c749e73d24834ed0889bbf544\n"}
+,{"stream_name":"stdout","time":1.048789094,"data":"source RUN_LOG.md bc2c7c8ff55e326838db70a0003d6b6bfeb17769a4625479186acb0d1ad3bdaf\n"}
+,{"stream_name":"stdout","time":1.279496867,"data":"dataset at /kaggle/input/datasets/oussielhoucine/p3-solar-fleets\n"}
+,{"stream_name":"stdout","time":290.687910426,"data":"51N-3E 2018 daylight rows under the mark, share 0.1615\n"}
+,{"stream_name":"stdout","time":290.691475502,"data":"51N-1E 2018 daylight rows under the mark, share 0.0144\n"}
+,{"stream_name":"stdout","time":290.745945332,"data":"51N-2E 2018 daylight rows under the mark, share 0.0541\n"}
+,{"stream_name":"stdout","time":290.832929874,"data":"50N-2E 2018 daylight rows under the mark, share 0.0107\n"}
+,{"stream_name":"stdout","time":550.116022167,"data":"51N-2E 2019 daylight rows under the mark, share 0.0813\n"}
+,{"stream_name":"stdout","time":550.139961142,"data":"51N-1E 2019 daylight rows under the mark, share 0.0313\n"}
+,{"stream_name":"stdout","time":550.231478016,"data":"50N-2E 2019 daylight rows under the mark, share 0.0308\n"}
+,{"stream_name":"stdout","time":550.276976419,"data":"51N-3E 2019 daylight rows under the mark, share 0.0623\n"}
+,{"stream_name":"stdout","time":813.880790606,"data":"51N-1E 2020 daylight rows under the mark, share 0.0172\n"}
+,{"stream_name":"stdout","time":814.046774262,"data":"50N-2E 2020 daylight rows under the mark, share 0.0491\n"}
+,{"stream_name":"stdout","time":814.087784225,"data":"51N-3E 2020 daylight rows under the mark, share 0.0136\n"}
+,{"stream_name":"stdout","time":814.109894864,"data":"51N-2E 2020 daylight rows under the mark, share 0.0066\n"}
+,{"stream_name":"stdout","time":1029.949412621,"data":"51N-1E 2021 daylight rows under the mark, share 0.0777\n"}
+,{"stream_name":"stdout","time":1030.002931969,"data":"51N-2E 2021 daylight rows under the mark, share 0.0798\n"}
+,{"stream_name":"stdout","time":1030.099242207,"data":"50N-2E 2021 daylight rows under the mark, share 0.0833\n"}
+,{"stream_name":"stdout","time":1030.13010208,"data":"51N-3E 2021 daylight rows under the mark, share 0.0235\n"}
+,{"stream_name":"stdout","time":1626.998953636,"data":"51N-3E rows 22970 seconds 1621\n"}
+,{"stream_name":"stdout","time":1630.623589151,"data":"51N-2E rows 22970 seconds 1625\n"}
+,{"stream_name":"stdout","time":1631.992826315,"data":"51N-1E rows 22970 seconds 1626\n"}
+,{"stream_name":"stdout","time":1632.280288023,"data":"50N-2E rows 22970 seconds 1626\n"}
+,{"stream_name":"stdout","time":1650.679759126,"data":"51N-4E 2018 daylight rows under the mark, share 0.0221\n"}
+,{"stream_name":"stdout","time":1653.92954551,"data":"51N0E 2018 daylight rows under the mark, share 0.058\n"}
+,{"stream_name":"stdout","time":1655.02899615,"data":"52N-1E 2018 daylight rows under the mark, share 0.0411\n"}
+,{"stream_name":"stdout","time":1655.426055533,"data":"52N-2E 2018 daylight rows under the mark, share 0.0473\n"}
+,{"stream_name":"stdout","time":1672.800572942,"data":"51N-4E 2019 daylight rows under the mark, share 0.0473\n"}
+,{"stream_name":"stdout","time":1676.256449596,"data":"51N0E 2019 daylight rows under the mark, share 0.0651\n"}
+,{"stream_name":"stdout","time":1677.453083534,"data":"52N-1E 2019 daylight rows under the mark, share 0.0691\n"}
+,{"stream_name":"stdout","time":1677.535715429,"data":"52N-2E 2019 daylight rows under the mark, share 0.0643\n"}
+,{"stream_name":"stdout","time":1695.648946232,"data":"51N-4E 2020 daylight rows under the mark, share 0.0138\n"}
+,{"stream_name":"stdout","time":1699.05479679,"data":"51N0E 2020 daylight rows under the mark, share 0.0066\n"}
+,{"stream_name":"stdout","time":1700.138975548,"data":"52N-1E 2020 daylight rows under the mark, share 0.0386\n"}
+,{"stream_name":"stdout","time":1700.36085689,"data":"52N-2E 2020 daylight rows under the mark, share 0.0091\n"}
+,{"stream_name":"stdout","time":1715.401104775,"data":"51N-4E 2021 daylight rows under the mark, share 0.0234\n"}
+,{"stream_name":"stdout","time":1718.681426069,"data":"51N0E 2021 daylight rows under the mark, share 0.0862\n"}
+,{"stream_name":"stdout","time":1719.810222763,"data":"52N-2E 2021 daylight rows under the mark, share 0.0801\n"}
+,{"stream_name":"stdout","time":1720.475628049,"data":"52N-1E 2021 daylight rows under the mark, share 0.0635\n"}
+,{"stream_name":"stdout","time":2311.46586537,"data":"51N-4E rows 22970 seconds 684\n"}
+,{"stream_name":"stdout","time":2316.288935101,"data":"51N0E rows 22970 seconds 686\n"}
+,{"stream_name":"stdout","time":2316.419999385,"data":"52N-2E rows 22970 seconds 684\n"}
+,{"stream_name":"stdout","time":2316.699013214,"data":"52N-1E rows 22970 seconds 685\n"}
+,{"stream_name":"stdout","time":2335.266303018,"data":"52N0E 2018 daylight rows under the mark, share 0.0748\n"}
+,{"stream_name":"stdout","time":2339.680840793,"data":"53N-2E 2018 daylight rows under the mark, share 0.023\n"}
+,{"stream_name":"stdout","time":2339.775353293,"data":"53N-3E 2018 daylight rows under the mark, share 0.0432\n"}
+,{"stream_name":"stdout","time":2340.821838328,"data":"54N-2E 2018 daylight rows under the mark, share 0.0302\n"}
+,{"stream_name":"stdout","time":2357.361866127,"data":"52N0E 2019 daylight rows under the mark, share 0.0859\n"}
+,{"stream_name":"stdout","time":2362.274957117,"data":"53N-2E 2019 daylight rows under the mark, share 0.0432\n"}
+,{"stream_name":"stdout","time":2362.395785682,"data":"53N-3E 2019 daylight rows under the mark, share 0.0409\n"}
+,{"stream_name":"stdout","time":2363.830139058,"data":"54N-2E 2019 daylight rows under the mark, share 0.0713\n"}
+,{"stream_name":"stdout","time":2380.054341546,"data":"52N0E 2020 daylight rows under the mark, share 0.0066\n"}
+,{"stream_name":"stdout","time":2385.31882736,"data":"53N-3E 2020 daylight rows under the mark, share 0.0909\n"}
+,{"stream_name":"stdout","time":2385.407197713,"data":"53N-2E 2020 daylight rows under the mark, share 0.0071\n"}
+,{"stream_name":"stdout","time":2387.247415017,"data":"54N-2E 2020 daylight rows under the mark, share 0.007\n"}
+,{"stream_name":"stdout","time":2399.828355593,"data":"52N0E 2021 daylight rows under the mark, share 0.0692\n"}
+,{"stream_name":"stdout","time":2405.215474925,"data":"53N-3E 2021 daylight rows under the mark, share 0.0244\n"}
+,{"stream_name":"stdout","time":2405.331964909,"data":"53N-2E 2021 daylight rows under the mark, share 0.0399\n"}
+,{"stream_name":"stdout","time":2406.666677346,"data":"54N-2E 2021 daylight rows under the mark, share 0.5698\n"}
+,{"stream_name":"stdout","time":2986.515681717,"data":"52N0E rows 22970 seconds 675\n"}
+,{"stream_name":"stdout","time":2992.540892862,"data":"54N-2E rows 22970 seconds 676\n"}
+,{"stream_name":"stdout","time":2994.864912279,"data":"53N-2E rows 22970 seconds 679\n"}
+,{"stream_name":"stdout","time":2995.095520474,"data":"53N-3E rows 22970 seconds 679\n"}
+,{"stream_name":"stdout","time":3010.689479788,"data":"55N-3E 2018 daylight rows under the mark, share 0.0231\n"}
+,{"stream_name":"stdout","time":3015.901003864,"data":"55N-4E 2018 daylight rows under the mark, share 0.054\n"}
+,{"stream_name":"stdout","time":3018.1378961,"data":"57N-3E 2018 daylight rows under the mark, share 0.1047\n"}
+,{"stream_name":"stdout","time":3018.16050016,"data":"56N-4E 2018 daylight rows under the mark, share 0.0251\n"}
+,{"stream_name":"stdout","time":3032.930068328,"data":"55N-3E 2019 daylight rows under the mark, share 0.0461\n"}
+,{"stream_name":"stdout","time":3038.024843025,"data":"55N-4E 2019 daylight rows under the mark, share 0.0628\n"}
+,{"stream_name":"stdout","time":3040.182140477,"data":"57N-3E 2019 daylight rows under the mark, share 0.0683\n"}
+,{"stream_name":"stdout","time":3040.472584131,"data":"56N-4E 2019 daylight rows under the mark, share 0.0619\n"}
+,{"stream_name":"stdout","time":3055.780229964,"data":"55N-3E 2020 daylight rows under the mark, share 0.0895\n"}
+,{"stream_name":"stdout","time":3060.729605549,"data":"55N-4E 2020 daylight rows under the mark, share 0.0063\n"}
+,{"stream_name":"stdout","time":3063.015976954,"data":"57N-3E 2020 daylight rows under the mark, share 0.0181\n"}
+,{"stream_name":"stdout","time":3063.129166255,"data":"56N-4E 2020 daylight rows under the mark, share 0.0255\n"}
+,{"stream_name":"stdout","time":3075.728653771,"data":"55N-3E 2021 daylight rows under the mark, share 0.0407\n"}
+,{"stream_name":"stdout","time":3080.816819471,"data":"55N-4E 2021 daylight rows under the mark, share 0.0457\n"}
+,{"stream_name":"stdout","time":3083.140594566,"data":"56N-4E 2021 daylight rows under the mark, share 0.0854\n"}
+,{"stream_name":"stdout","time":3083.601081656,"data":"57N-3E 2021 daylight rows under the mark, share 0.0675\n"}
+,{"stream_name":"stdout","time":3660.831506175,"data":"55N-3E rows 22970 seconds 674\n"}
+,{"stream_name":"stdout","time":3664.02602403,"data":"55N-4E rows 22970 seconds 671\n"}
+,{"stream_name":"stdout","time":3664.156011234,"data":"56N-4E rows 22970 seconds 669\n"}
+,{"stream_name":"stdout","time":3666.142689651,"data":"57N-3E rows 22970 seconds 671\n"}
+,{"stream_name":"stdout","time":3681.372649163,"data":"national 2018 daylight rows under the mark, share 0.0144\n"}
+,{"stream_name":"stdout","time":3699.259215742,"data":"national 2019 daylight rows under the mark, share 0.0271\n"}
+,{"stream_name":"stdout","time":3717.909131497,"data":"national 2020 daylight rows under the mark, share 0.0027\n"}
+,{"stream_name":"stdout","time":3733.905143292,"data":"national 2021 daylight rows under the mark, share 0.0189\n"}
+,{"stream_name":"stdout","time":4143.944046146,"data":"national rows 20590 seconds 483\n"}
+,{"stream_name":"stdout","time":4144.415426283,"data":"sensitivity.py uk exit code 0\n"}
+,{"stream_name":"stderr","time":4147.930918468,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4147.930975008,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4148.470251671,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4148.470296436,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4151.072822294,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4152.682835272,"data":"[NbConvertApp] Writing 422869 bytes to __results__.html\n"}
+]
