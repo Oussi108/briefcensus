@@ -2,7 +2,7 @@
 
 Fixed on 4 November 2026, before any UK PV generation value has been read. It replaces `PROTOCOL_v1.md` as the description of
 the paper, and v1 stays unchanged as the record of what was tried first. Anything that changes after this file is hashed goes
-in `RUN_LOG.md` with its reason and date. The user confirmed the change of main claim on 4 November.
+in `RUN_LOG.md` with its reason and date. The first author confirmed the change of main claim on 4 November.
 
 ## Question
 
@@ -91,7 +91,7 @@ start months. E_1y uses the same campaign set.
 
 - **Confirmed** at L = 4 weeks on UK PV in 2019 if the median S across regions is at least 0.5, and at least two thirds of regions reach
   0.5. A Wilcoxon signed-rank test across regions on E_random - E_L is reported beside it.
-- **Not confirmed:** the paper says so, and reports the result as specific to Ausgrid. The next step is then for the user to decide.
+- **Not confirmed:** the paper says so, and reports the result as specific to Ausgrid. The next step is then for the first author to decide.
 
 Secondary, all reported whatever they show:
 
@@ -119,8 +119,5 @@ operator has no fleet truth, and scoring uses the true evaluation group.
 
 ## Rules
 
-- Compute: laptop first. Kaggle runs carry a time limit, stay private and stop themselves when they end or fail.
-- The Hugging Face token stays on the laptop. If Kaggle needs UK PV, the files go up as a private Kaggle dataset.
-- Do not read PVDAQ 2107 or 9068 values from 2022 onward for this paper until Paper 1 is scored.
-- Do not edit `paper1/`, `paper2`, `paper3/` or `paper4/`.
-- Git commits only when the user asks, authored by the user only.
+- Kaggle runs carry a time limit, stay private, and stop themselves when they end or fail.
+- UK PV files go to Kaggle only as a private dataset.

@@ -141,7 +141,7 @@ nRMSE % on Y2 at k = 10, mean over partitions and start months (random 14.69, on
 - Simple selectors (largest capacity, medoids, maximum difference, mRMR) have not been run on short windows. If they match greedy, the finding is about census length, not about the search.
 - A census of every home is the costly part. The size of the campaign (metering a sample, not the whole fleet) has not been tested.
 - No forecast result exists yet. The paper needs one to stay a forecasting paper.
-- Check how the publisher screened Y1. My memory, not yet verified, is that Ratnam et al. 2017 describe quality filtering on the first year. That could make Y1 look cleaner than Y2 and would matter here.
+- Check how the publisher screened Y1. Not yet verified: Ratnam et al. 2017 may describe quality filtering on the first year. That could make Y1 look cleaner than Y2 and would matter here.
 
 **Novelty, weak evidence only.** Three searches on 4 November found no study that varies the length of the data used to choose reference PV systems. The Saint-Drenan page (HAL) and preprints.org 202606.1547 refused automated access, and neither check was bypassed, so both remain unread and must be read by hand. Yao, Tang and Ayyanar 2014 (ECCE) estimate feeder PV from a few inverters, and the page does not say how those are chosen.
 

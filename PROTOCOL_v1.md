@@ -16,7 +16,7 @@ Selection from net data is the part not found so far. The census arm in this pro
 
 ## Data
 
-Ausgrid Solar Home, 300 gross-metered homes, 30 min, read from `paper3/data_external/ausgrid/extracted/` and never written.
+Ausgrid Solar Home, 300 gross-metered homes, 30 min, read from a local copy and never written.
 
 - Y1 = July 2010 to June 2011. Y2 = July 2011 to June 2012. Y3 = July 2012 to June 2013.
 - Net load is built as GC + CL - GG, so it is constructed, not observed, and the paper must say so.
@@ -98,7 +98,4 @@ reference, and a zero-monitor weather model using retrospective weather, which f
 
 ## Rules
 
-- Compute: laptop first. Kaggle runs carry a time limit, stay private and stop themselves when they end or fail.
-- Do not read PVDAQ 2107 or 9068 values from 2022 onward for this paper until Paper 1 is scored.
-- Do not edit `paper1/`, `paper2`, `paper3/` or `paper4/`.
-- Git commits only when the user asks, authored by the user only.
+- Kaggle runs carry a time limit, stay private, and stop themselves when they end or fail.

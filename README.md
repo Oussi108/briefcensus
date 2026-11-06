@@ -21,7 +21,7 @@ The outage filter was added after the frozen run, and `RUN_LOG.md` records that 
 
 | Path | What it holds |
 |---|---|
-| `PROTOCOL_v1.md`, `PROTOCOL_v2.md` | The protocols fixed before the runs |
+| `PROTOCOL_v1.md`, `PROTOCOL_v2.md` | The protocols fixed before the runs. These public copies leave out rules about the authors' own workspace, which do not concern the study, so their hashes differ from those in `RUN_LOG.md`. The hashed originals are in the Zenodo archive of version 1.0.0. |
 | `RUN_LOG.md` | Dated log of decisions, failed claims, rule changes, and file hashes. This public copy leaves out personal and manuscript-editing notes and has light wording edits. No result, rule, or code hash changed. |
 | `src/` | Method, rival selectors, forecast models, and scoring |
 | `kaggle/campaign/` | Kaggle run scripts, logs, and output tables of each run |
