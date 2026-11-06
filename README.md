@@ -1,6 +1,6 @@
 # BriefCensus
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23950665.svg)](https://doi.org/10.5281/zenodo.23950665)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23950664.svg)](https://doi.org/10.5281/zenodo.23950664)
 
 Code, run log, and result tables for the paper "BriefCensus: A short metering campaign that chooses permanent monitors for rooftop photovoltaic fleet estimation and forecasting".
 
@@ -76,4 +76,4 @@ The code is under the MIT License. Result tables and figures are under CC BY 4.0
 
 ## Citation
 
-Cite version 1.0.0 as [10.5281/zenodo.23950665](https://doi.org/10.5281/zenodo.23950665). See `CITATION.cff` for the full entry. The paper reference will be added here once it exists.
+Cite all versions as [10.5281/zenodo.23950664](https://doi.org/10.5281/zenodo.23950664), which always resolves to the latest version. Version 1.0.0 is [10.5281/zenodo.23950665](https://doi.org/10.5281/zenodo.23950665). See `CITATION.cff` for the full entry. The paper reference will be added here once it exists.

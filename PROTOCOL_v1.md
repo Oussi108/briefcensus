@@ -85,7 +85,7 @@ R_k = (E_random - E_net) / (E_random - E_census)
 - **Pass:** for the better of N1 and N2, median R_k is at least 0.5.
 - **No gain to recover:** if census greedy does not beat the random median at k = 5, 10, 20, selection itself is not worth a
   paper on this fleet, and the plan moves to the fallback.
-- **Fail:** move to the census-length question (4 weeks, 3 months, 1 year). If that shows no clear gain either, move to LeadLock.
+- **Fail:** move to the census-length question (4 weeks, 3 months, 1 year). If that shows no clear gain either, move to a different study question.
 
 Trying two variants and keeping the better one flatters the result, so the kill test only decides whether to continue. The
 reported result is the hold-out, with the variant fixed in `RUN_LOG.md` before Y3 is read.
